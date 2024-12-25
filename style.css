@@ -1,0 +1,127 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Georgia', serif;
+  line-height: 1.8;
+  color: #333; /* A soft, floral text color */
+  background-color: #f9f6f1; /* Light beige for a floral background */
+  text-align: center;
+}
+
+/* Header Section */
+.hero {
+  background-color: #e8f3e1; /* A light green to evoke nature */
+  padding: 100px 20px;
+  color: #6b705c; /* Soft brown for text */
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif; /* Decorative floral style */
+  color: #6b705c;
+  margin-bottom: 10px;
+}
+
+.hero-content h2 {
+  font-size: 1.8rem;
+  font-family: 'Georgia', serif;
+  color: #8b8c89;
+  font-style: italic;
+}
+
+/* Course Container */
+.course {
+  padding: 40px 20px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid #d4d2cd; /* Soft divider lines */
+}
+
+.course h3 {
+  font-size: 2rem;
+  color: #5a8452; /* Deep green for headings */
+  margin-bottom: 20px;
+}
+
+.course p {
+  font-size: 1.1rem;
+  color: #4f4e4a; /* A warm, muted gray for paragraphs */
+  max-width: 800px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.course ul {
+  list-style-type: square; /* Floral-inspired list style */
+  color: #5a8452;
+  margin: 20px 0;
+  padding-left: 40px;
+}
+
+.course li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.course img {
+  width: 100%;
+  max-width: 800px;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for elegance */
+}
+
+/* Footer/Summary Section */
+.summary {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #faf4e1; /* A light floral yellow */
+}
+
+.summary h3 {
+  font-size: 2.2rem;
+  color: #5a8452;
+  margin-bottom: 20px;
+}
+
+.summary p {
+  font-size: 1.2rem;
+  color: #6b705c;
+  max-width: 800px;
+  margin: 0 auto;
+  font-style: italic;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1.5rem;
+  }
+
+  .course h3 {
+    font-size: 1.8rem;
+  }
+
+  .course p {
+    font-size: 1rem;
+  }
+
+  .summary h3 {
+    font-size: 2rem;
+  }
+
+  .summary p {
+    font-size: 1rem;
+  }
+}
